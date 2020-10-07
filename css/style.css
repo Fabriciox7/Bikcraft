@@ -182,3 +182,28 @@ p {
 .call-to-action p {
   margin-bottom: 20px;
 }
+
+/* Portfólio */
+
+.portfolio {
+  width: 100%;
+  background: #000;
+  padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+  color: #fec63e;
+}
+
+.portfolio .subtitulo:after {
+  background: #fec63e;
+}
+
+.portfolio_list li:last-child {
+  margin-top: 20px;
+
+}
+
+.portfolio .call-to-action {
+  color: #fff;
+}
