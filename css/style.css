@@ -8,6 +8,7 @@ p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
   line-height: 40px;
+  color: #000;
 }
 
 .btn {
@@ -329,4 +330,5 @@ img {
   width: 100%;
   background-color: #fec63e;
   padding: 20px 0;
+
 }
