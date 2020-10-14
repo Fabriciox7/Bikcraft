@@ -1,0 +1,83 @@
+.interna-produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.produto-item {
+  padding-top: 60px;
+}
+
+.produto-item:nth-child(1) {
+  padding-bottom: 50px;
+}
+.produto-item h2 {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  margin-bottom: -41.5px;
+}
+
+.produto-icone {
+  background: #000;
+  padding: 70px 0;
+}
+
+.produto-icone img {
+  margin: 0 auto;
+}
+.produto-info {
+  background: #000;
+}
+.produto-info p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 30px 40px;
+  height: 180px;
+}
+
+.produto-info ul li {
+  background: #fec63e;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+  float: left;
+  width: 229px;
+  height: 49px;
+  padding-top: 16px;
+}
+/*:nth-child(even) para os pares e :nth-child(odd) para os impares*/
+.produto-info ul li:nth-child(1) {
+  margin-bottom: 2px;
+}
+.produto-info ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+.produto-info ul li:nth-child(even) {
+  margin-left: 2px;
+}
+
+.orcamento {
+  padding: 60px 0;
+  background: #000;
+  color: #fec63e;
+}
+
+.orcamento .subtitulo {
+  color: #fec63e;
+}
+.orcamento .subtitulo::after {
+  background: #fec63e;
+}
+
+.form .form-orcamento input {
+  border: 10px solid #fec63e;
+  background: #fff;
+}
