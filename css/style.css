@@ -7,7 +7,7 @@ body {
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
-  line-height: 40px;
+  line-height: 25px;
 }
 
 .btn {
@@ -129,11 +129,12 @@ p {
   max-width: 320px;
   margin: 0 auto;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .quote-externo p {
   font-style: italic;
+  
 }
 
 .quote-externo p:before,
@@ -155,6 +156,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 /* Introdução interna */
@@ -223,7 +225,7 @@ img {
 }
 
 .produtos_icone img {
-  margin: auto;
+  margin:  0 auto;
 }
 
 .call-to-action {
