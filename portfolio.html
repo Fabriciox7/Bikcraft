@@ -13,6 +13,7 @@
     <script>
         document.documentElement.classList.add("js");
     </script>
+    <script src="js/simple-anime.js"></script>
 </head>
 
 <body>
@@ -33,11 +34,11 @@
     </header>
     <section class="introducao-interna  interna-portfolio">
         <div class="container">
-            <h1>Portfólio</h1>
-            <p>Conheça mais sobre a Bikcraft</p>
+            <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+            <p data-anime="800" class="fadeInDown">Conheça mais sobre a Bikcraft</p>
         </div>
     </section>
-    <section class="container" data-slide="quote">
+    <section data-anime="1200" class="container " data-slide="quote">
         <blockquote class="quote-clientes">
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dignissimos expedita reiciendis debitis sapiente odio error veritatis at harum eveniet, quas, saepe amet eum fuga maiores laudantium magni quia ipsum! </p>
             <cite>Pedro</cite>
@@ -53,7 +54,7 @@
     </section>
 
 
-    <section class="portfolio">
+    <section data-anime="1600" class="portfolio fadeInDown">
         <div class="container" data-slide="portfolio">
 
             <ul class="portfolio_list">
@@ -144,7 +145,7 @@
 
         </div>
     </footer>
-    <script src="js/simple-slide.js"></script>
+
     <script src="js/simple-slide.js"></script>
     <script src="js/script.js"></script>
 </body>
