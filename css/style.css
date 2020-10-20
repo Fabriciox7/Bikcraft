@@ -69,6 +69,12 @@ p {
     margin: 8px 0;
 }
 
+.nao-aparece {
+    visibility: hidden;
+    height: 0px;
+    position: absolute;
+}
+
 
 /*Header*/
 
