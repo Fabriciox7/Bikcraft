@@ -15,13 +15,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/produtos.css">
-    <link rel="stylesheet" href="css/responsivo.css">
     <script>
         document.documentElement.classList.add("js");
     </script>
@@ -146,13 +140,13 @@
                 <label for="telefone">Telefone:</label>
                 <input type="tel" id="telefone" name="telefone">
 
-                <label for="" class="nao-aparece">Se vocÊ não é um robô,deixa em branco.</label>
-                <input type="text" class="nao-aparece" name="leaveblank">
-                <label for="" class="nao-aparece">Se vocÊ não é um robô,deixa em branco.</label>
-                <input type="text" class="nao-aparece" name="dontchange" value="http://">
+                <label for="naoaparece" class="nao-aparece">Se vocÊ não é um robô,deixa em branco.</label>
+                <input id="naoaparece" type="text" class="nao-aparece" name="leaveblank">
+                <label for="n" class="nao-aparece">Se vocÊ não é um robô,deixa em branco.</label>
+                <input id="n" type="text" class="nao-aparece" name="dontchange" value="http://">
 
                 <label for="mensagem">Especificações:</label>
-                <textarea name="" id="mensagem" cols="30" rows="10" name="mensagem" required> </textarea>
+                <textarea id="mensagem" cols="30" rows="10" name="mensagem" required> </textarea>
 
                 <button id="enviar" type="submit" class="btn " name="enviar">Enviar</button>
             </form>
@@ -174,7 +168,7 @@
         </div>
     </section>
     <!-- QUEBRA -->
-    <section class="quebra">
+    <div class="quebra">
 
         <blockquote class="container quote-externo">
             <p>
@@ -182,7 +176,7 @@
             </p>
             <cite>WILLIAM MORRIS</cite>
         </blockquote>
-    </section>
+    </div>
 
     <footer class="">
         <div class="footer">
